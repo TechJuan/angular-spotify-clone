@@ -10,6 +10,7 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { LoginComponent } from './pages/login/login.component';
 import { TopNavComponent } from './components/top-nav/top-nav.component';
 import { ButtonComponent } from './components/button/button.component';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ButtonComponent } from './components/button/button.component';
     SignupComponent,
     LoginComponent,
     TopNavComponent,
-    ButtonComponent
+    ButtonComponent,
+    ProfilePageComponent
   ],
   imports: [
     BrowserModule,
